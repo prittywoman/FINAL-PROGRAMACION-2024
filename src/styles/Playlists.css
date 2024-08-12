@@ -1,0 +1,130 @@
+
+.playlists-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+    background-color: #7CAFD6;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px #7CAFD6;
+  }
+  
+  h2 {
+    color: #1F3666;
+  }
+  
+  .input-container {
+    margin-bottom: 20px;
+  }
+  
+  .input-container input[type="text"],
+  .input-container input[type="number"] {
+    width: 60%;
+    padding: 0.75rem;
+    border: 1px solid #1F3666;
+    border-radius: 4px;
+    background-color: #1F3666;
+    color: #62FDFF;
+    box-sizing: border-box;
+    font-size: 1rem;
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  .input-container input::placeholder {
+    color: #7CAFD6;
+    opacity: 1;
+  }
+  
+  button {
+    padding: 0.75rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #7cafd6;
+    color: #62FDFF;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #1F3666;
+    border: 1px solid #1F3666;
+  }
+  
+  .delete-button {
+    background-color: #7CAFD6;
+    color: #1F3666;
+  }
+  
+  .delete-button:hover {
+    background-color: #7CAFD6;
+    color: #1F3666;
+  }
+  
+  .error-message, .success-message {
+    color: #1F3666;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .playlists-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .playlist-item {
+    padding: 5px;
+    margin: 5px 0;
+    background-color: #1F3666;
+    border: 1px solid #1F3666;
+    border-radius: 4px;
+    width: 80%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .playlist-name {
+    color: #7CAFD6;
+    font-weight: bold;
+  }
+  
+  .playlist-details-container {
+    background-color: #1F3666;
+    border: 1px solid #1F3666;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .playlist-details-title {
+    color: #62FDFF;
+    border-bottom: 2px solid #62FDFF;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .playlist-details-container p {
+    color: #62FDFF;
+    margin: 10px 0;
+  }
+  
+  .song-item {
+    margin: 10px 0;
+    color: #62FDFF;
+  }
+  
+  .song-title {
+    display: block;
+    font-weight: bold;
+  }
+  
+  

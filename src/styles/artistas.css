@@ -1,0 +1,291 @@
+
+.artistas-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 10px;
+  background-color: #7CAFD6; 
+  border-radius: 8px;
+  box-shadow: 0 4px 8px #7CAFD6;
+}
+
+
+h2, h3, h4 {
+  color: #1F3666; 
+}
+
+
+.input-container input[type="text"], 
+.search-container input[type="text"] {
+  width: 60%;
+  padding: 0.75rem;
+  border: 1px solid #1F3666;
+  border-radius: 4px;
+  background-color: #1F3666;
+  color: #62FDFF;
+  box-sizing: border-box;
+  font-size: 1rem;
+  text-align: center;
+  margin: 10px 0;
+}
+
+
+.input-container input::placeholder,
+.search-container input::placeholder {
+  color: #7CAFD6;
+  opacity: 1;
+}
+
+
+button {
+  padding: 0.75rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #1F3666;
+  color: #62FDFF;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #7CAFD6;
+  border: 1px solid #1F3666;
+  color: #1F3666;
+}
+
+
+.create-artista-button, .save-changes-button, .search-button {
+  background-color: #1F3666;
+  color: #62FDFF;
+}
+
+.edit-button, .delete-button {
+  background-color: #7CAFD6;
+  color: #1F3666;
+}
+
+.create-artista-button:hover, 
+.save-changes-button:hover, 
+.search-button:hover {
+  background-color: #7CAFD6;
+  color: #1F3666;
+}
+
+.edit-button:hover, .delete-button:hover {
+  background-color: #1F3666;
+  color: #7CAFD6;
+}
+
+
+.view-songs-button {
+  background-color: #33589e;
+  color: #62FDFF;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.view-songs-button:hover {
+  background-color: #62FDFF;
+  color: #33589e;
+}
+
+
+.error-message {
+  color: #FF0000; 
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+.success-message {
+  color: #1F3666;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+  background-color: #7CAFD6;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li.artista-item {
+  padding: 5px;
+  margin: 5px 0;
+  background-color: #1F3666;
+  border: 1px solid #1F3666;
+  border-radius: 4px;
+  width: 80%;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.artista-name {
+  color: #7CAFD6;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+
+.artista-actions {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+
+.pagination-controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination-controls button {
+  background-color: #33589e;
+  color: #62FDFF;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 15px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.pagination-controls button:hover {
+  background-color: #62FDFF;
+  color: #33589e;
+}
+
+.pagination-controls span {
+  padding: 5px;
+  margin: 0 5px;
+  color: #33589e;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+
+.artista-details-container {
+  background-color: #1F3666;
+  border: 1px solid #1F3666;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+}
+
+.artista-details-title {
+  color: #62FDFF;
+  border-bottom: 2px solid #62FDFF;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.artista-details-container p {
+  color: #62FDFF;
+  margin: 10px 0;
+}
+
+.artista-details-container button {
+  background-color: #1F3666;
+  color: #7CAFD6;
+  border: none;
+  border-radius: 4px;
+  padding: 15px 20px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.artista-details-container button:hover {
+  background-color: #7CAFD6;
+  color: #1F3666;
+}
+
+
+.search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+
+.artist-songs-container {
+  background-color: #1F3666;
+  border: 1px solid #62FDFF;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.artist-songs-container h3 {
+  color: #62FDFF;
+  text-align: center;
+  border-bottom: 2px solid #62FDFF;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.artist-songs-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.artist-songs-container li {
+  color: #7CAFD6;
+  background-color: #33589e;
+  border: 1px solid #62FDFF;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 5px 0;
+  text-align: center;
+}
+
+.artist-songs-container {
+  background-color: #1F3666;
+  border: 1px solid #62FDFF;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+
+.artist-songs-container h3 {
+  color: #62FDFF;
+  text-align: center;
+  border-bottom: 2px solid #62FDFF;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+
+.artist-songs-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+.artist-songs-container li {
+  color: #7CAFD6;
+  background-color: #33589e;
+  border: 1px solid #62FDFF;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 5px 0;
+  text-align: center;
+}
